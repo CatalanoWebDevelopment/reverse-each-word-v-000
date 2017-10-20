@@ -12,4 +12,5 @@ def reverse_each_word(sentence2)
   save2.collect do |more_words|
     more_words.reverse
   end
+  save2.join(" ")
 end
