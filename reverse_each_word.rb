@@ -8,9 +8,10 @@
 # end
 
 def reverse_each_word(sentence2)
+  new2 = []
   save2 = sentence2.split
   save2.collect do |more_words|
-    more_words.reverse
+    new2 << more_words.reverse
   end
-  save2.join(" ")
+  new2.join(" ")
 end
